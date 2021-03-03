@@ -1,0 +1,47 @@
+html, body, #main {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Kavivanar', cursive;
+  font-size: 70px;
+  color: #ede0d4;
+  background-color: #44281d;
+}
+
+#header, #media, #footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img + img {
+  margin-top: 60px;
+}
+
+.img {
+  width: 500px;
+  justify-content: center;
+}
+
+#footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+a {
+  color: #ede0d4;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ddb892;
+}
+
+a:active {
+  color: #b08968;
+}
